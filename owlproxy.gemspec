@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email                = ["developer@andantesoftware.com"]
 
   spec.summary              = %q{image upload proxy for YoruFukurou}
-  spec.description          = %q{image upload proxy for YoruFukurou}
+  spec.description          = %q{image upload proxy for YoruFukurou. since non tested, it might have some problems.}
   spec.homepage             = "https://github.com/masawada/owlproxy"
   spec.license              = "MIT"
 
