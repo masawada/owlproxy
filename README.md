@@ -1,4 +1,4 @@
-# Owlproxy
+# OwlProxy
 
 ## Installation
 
@@ -34,7 +34,7 @@ $ owlproxy
 
 ### Settings
 
-Once you started the proxy server, `$HOME/.owlproxy.yml` is generated automatically. After edit the config file, you must restart the proxy server.
+Once you started the server, `$HOME/.owlproxy.yml` is generated automatically. After edit the config file, you must restart the server.
 
 ## Contributing
 
