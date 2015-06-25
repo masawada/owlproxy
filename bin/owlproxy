@@ -2,4 +2,5 @@
 
 require "owlproxy"
 
+Process.daemon if OwlProxy::Settings.daemonize
 OwlProxy::Server.run!
