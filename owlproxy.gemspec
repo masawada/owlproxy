@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors              = ["Masayoshi Wada"]
   spec.email                = ["developer@andantesoftware.com"]
 
-  spec.summary              = %q{}
-  spec.description          = %q{}
+  spec.summary              = %q{image upload proxy for YoruFukurou}
+  spec.description          = %q{image upload proxy for YoruFukurou}
   spec.homepage             = "https://github.com/masawada/owlproxy"
   spec.license              = "MIT"
 
