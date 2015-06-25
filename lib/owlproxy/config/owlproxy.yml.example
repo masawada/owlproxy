@@ -1,0 +1,9 @@
+default_option: "gyazo"
+daemonize: true
+services:
+  gyazo:
+    default: &defaults
+      api_endpoint: "https://upload.gyazo.com/api/upload"
+      access_token: "ACCESS_TOKEN"
+    screen_name:
+      access_token: "OTHER_ACCESS_TOKEN"
