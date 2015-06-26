@@ -1,3 +1,4 @@
+port: 9000
 default_option: "gyazo"
 daemonize: true
 services:

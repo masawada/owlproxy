@@ -2,6 +2,8 @@ require "sinatra/base"
 
 module OwlProxy
   class Server < Sinatra::Base
+    set :port, Settings.port
+
     post '/upload' do
       image_url = OwlProxy::Uploader.upload(
         username: params[:username],
