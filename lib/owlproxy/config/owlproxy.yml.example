@@ -1,3 +1,4 @@
+port: 9000
 default_option: "gyazo"
 daemonize: true
 services:
@@ -6,4 +7,15 @@ services:
       api_endpoint: "https://upload.gyazo.com/api/upload"
       access_token: "ACCESS_TOKEN"
     screen_name:
+      <<: *defaults
       access_token: "OTHER_ACCESS_TOKEN"
+  twitter:
+    default: &defaults
+      consumer_key: "CONSUMER_KEY"
+      consumer_secret: "CONSUMER_SECRET"
+      access_token: "ACCESS_TOKEN"
+      access_token_secret: "ACCESS_TOKEN_SECRET"
+    screen_name:
+      <<: *defaults
+      access_token: "OTHER_ACCESS_TOKEN"
+      access_token_secret: "OTHER_ACCESS_TOKEN_SECRET"
