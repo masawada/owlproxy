@@ -26,4 +26,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "sinatra", "~> 1.4"
   spec.add_dependency "settingslogic", "~> 2.0"
   spec.add_dependency "rest-client", "~> 1.8"
+  spec.add_dependency "twitter", "~> 5.14"
 end
